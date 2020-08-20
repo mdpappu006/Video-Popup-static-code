@@ -1,0 +1,80 @@
+/*
+Template Name: Section 2
+Author Name: Nazmul Hossain Pappu
+Description: A custom Beautiful section 
+Authod URI: nhpit.com
+*/
+
+body{
+	margin: 0;
+}
+
+.video-container{
+	display: flex;
+}
+
+.video-left-section, .video-right-section{
+	width: 50%;
+}
+
+.video-left-section{
+	position: relative;
+}
+
+.video-left-section img{
+	width: 85%;
+	box-shadow: 7px 7px 14px -4px #888;
+}
+
+.player-play{
+	position: absolute;
+	background: #2ECC71;
+	padding: 30px 35px;
+	border-radius: 50%;
+	color: #fff;
+	top: 38%;
+	right: 11.5%;
+}
+
+.video-left-section i{
+	font-size: 10px;
+	position: relative;
+	bottom: 2px;
+}
+
+
+/*Video right section Css code*/
+
+
+.video-right-main{
+	margin-top: 15%;
+	width: 75%;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.video-right-main h2{
+	color: #373737;
+}
+
+.video-right-main ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.video-right-main p{
+	color: #808080;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.video-right-main i{
+	color: #2ECC71;
+    margin-right: 15px;
+}
+
+.video-right-main ul li{
+	line-height: 35px;
+}
+
